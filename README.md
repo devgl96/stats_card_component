@@ -89,3 +89,27 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+´´´html
+
+  .content .fade-effect-image {
+      background-color: var(--accent-soft-violet);
+      background-blend-mode: multiply;
+    }
+
+    .content .right-image-side {
+      background-image: url("images/image-header-desktop.jpg");
+      background-size: cover;
+
+      width: 49.8%;
+      height: 100%;
+
+      border-radius: 0 10px 10px 0;
+    }
+
+    <div class="right-image-side fade-effect-image">
+    </div>
+
+  <!-- Another solution -->
+ 
+´´´
