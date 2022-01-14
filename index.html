@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    :root {
+      --main-background: hsl(233, 47%, 7%);
+      --card-background: hsl(244, 38%, 16%); 
+      --accent-soft-violet: hsl(277, 64%, 61%);
+      --main-heading-stats-white: hsl(0, 0%, 100%);
+      --main-paragraph-slightly-white: hsla(0, 0%, 100%, 0.75);
+      --stat-headings-slightly-white: hsla(0, 0%, 100%, 0.6);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      font-size: 15px;
+    }
+
+    /* Footer atribution */
+    .attribution { 
+      font-size: 11px; 
+      text-align: center;
+    }
+    
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
 <body>
