@@ -18,8 +18,12 @@ I used the HTML and CSS for this challenge. I use the following features:
 I learned a way to make the image has a color effect. In the challenge, I decided to use a different way, 
 but I want to show this method that I found.
 
-´´´html
-  <!-- Another solution -->
+```html
+    <div class="right-image-side fade-effect-image">
+    </div>
+```
+
+```css
   .content .fade-effect-image {
       background-color: var(--accent-soft-violet);
       background-blend-mode: multiply;
@@ -34,10 +38,6 @@ but I want to show this method that I found.
 
       border-radius: 0 10px 10px 0;
     }
-
-    <div class="right-image-side fade-effect-image">
-    </div>
- 
-´´´
+```
 
 **Have fun building!** 🚀
